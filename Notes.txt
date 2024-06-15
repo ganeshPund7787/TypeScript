@@ -1,0 +1,7 @@
+1) TypeScript has static cheacking
+
+2) TypeScript analyze the code that we have write and find the error in development time 
+
+3) TypeScript is development tool Which is use to development;
+
+4) At the end our code translate in the js
