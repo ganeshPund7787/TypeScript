@@ -19,3 +19,14 @@ function setData(_a) {
 }
 var newData = { id: "324rf4tf452r", price: 2323, login: false };
 setData(newData);
+function createUsers(user) {
+    return { name: "string", gender: "string", mo_no: 24546 };
+}
+createUsers({ name: "string", gender: "string", mo_no: 24546 });
+var newMongoser = {
+    _id: "123241",
+    name: "ganesh",
+    email: "ganu@gmail.com",
+    isActive: true,
+};
+newMongoser.name = "vishal";

@@ -41,4 +41,43 @@ function createUsers(user: User): User {
 
 createUsers({ name: "string", gender: "string", mo_no: 24546 });
 
+type id = number | string;
+
+type mongoUser = {
+  readonly _id: string;
+  name: string;
+  email: string;
+  isActive: boolean;
+  creaditCardNo?: number;
+};
+
+const newMongoser: mongoUser = {
+  _id: "123241",
+  name: "ganesh",
+  email: "ganu@gmail.com",
+  isActive: true,
+};
+
+newMongoser.name = "vishal";
+
+// newMongoser._id = "sfsdf"
+
+type cardNumber = {
+  cardnumber: string;
+};
+
+type cardDate = {
+  cardDate: string;
+};
+
+type cardDetails = cardNumber &
+  cardDate & {
+    cvv: number;
+  };
+
+const newCard: cardDetails = {
+  cardnumber: "123",
+  cardDate: "dfds",
+  cvv: 3456,
+};
 export {};
