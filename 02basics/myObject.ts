@@ -22,4 +22,23 @@ const newData = { id: "324rf4tf452r", price: 2323, login: false };
 
 setData(newData);
 
+//
+//
+//
+//
+// aliases in typescript
+///
+
+type User = {
+  name: string;
+  gender: string;
+  mo_no: number;
+};
+
+function createUsers(user: User): User {
+  return { name: "string", gender: "string", mo_no: 24546 };
+}
+
+createUsers({ name: "string", gender: "string", mo_no: 24546 });
+
 export {};
