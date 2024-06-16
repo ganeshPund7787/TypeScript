@@ -36,4 +36,11 @@ let getHello = (val: number): string => {
   return "";
 };
 
+const names = ["Ganesh", "Pratik", "Prashant", "vishal"];
+// const names = [1, 2, 3, 4];
+
+names.map((name): string => {
+  return `My name is ${name}`;
+});
+
 export {};

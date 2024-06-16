@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 function addTwo(num) {
     return num + 5;
+    //   return "helllo";
 }
 addTwo(5);
 function toUpper(val) {
@@ -17,3 +18,18 @@ function loginUser(name, email, isPaid) {
     return;
 }
 loginUser("ganu", "ganu@gmail.com");
+// This situation alsoi happened
+// function getValue(val: number): boolean | string {
+//   if (val > 5) {
+//     return true;
+//   }
+//   return "ok";
+// }
+var getHello = function (val) {
+    return "";
+};
+var names = ["Ganesh", "Pratik", "Prashant", "vishal"];
+// const names = [1, 2, 3, 4];
+names.map(function (name) {
+    return "My name is ".concat(name);
+});
