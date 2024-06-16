@@ -5,3 +5,6 @@
 3) TypeScript is development tool Which is use to development;
 
 4) At the end our code translate in the js
+
+5) if your variable type is any that is not good practice
+

@@ -5,3 +5,4 @@ var user = {
 };
 console.log("Ganesh");
 console.log(user.name);
+
