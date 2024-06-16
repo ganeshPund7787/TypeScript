@@ -1,5 +1,6 @@
-function addTwo(num: number) {
+function addTwo(num: number): number {
   return num + 5;
+  //   return "helllo";
 }
 
 addTwo(5);
@@ -21,5 +22,18 @@ function loginUser(name: string, email: string, isPaid: boolean = false) {
 }
 
 loginUser("ganu", "ganu@gmail.com");
+
+// This situation alsoi happened
+
+// function getValue(val: number): boolean | string {
+//   if (val > 5) {
+//     return true;
+//   }
+//   return "ok";
+// }
+
+let getHello = (val: number): string => {
+  return "";
+};
 
 export {};

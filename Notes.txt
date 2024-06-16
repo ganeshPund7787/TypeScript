@@ -1,4 +1,4 @@
-1) TypeScript has static cheacking
+1) TypeScript has static cheacking && ts is rapper of js to allowend write code errorless
 
 2) TypeScript analyze the code that we have write and find the error in development time 
 
