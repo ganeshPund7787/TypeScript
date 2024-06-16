@@ -43,4 +43,14 @@ names.map((name): string => {
   return `My name is ${name}`;
 });
 
+function consoleError(errMsg: string): void {
+  console.log(errMsg);
+  return; // we can add only return
+}
+
+// we can't add return anymore : never
+function handleError(errMsg: string): never {
+  throw new Error(errMsg);
+}
+
 export {};

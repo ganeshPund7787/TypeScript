@@ -33,3 +33,11 @@ var names = ["Ganesh", "Pratik", "Prashant", "vishal"];
 names.map(function (name) {
     return "My name is ".concat(name);
 });
+function consoleError(errMsg) {
+    console.log(errMsg);
+    return; // we can add only return
+}
+// we can't add return anymore : never
+function handleError(errMsg) {
+    throw new Error(errMsg);
+}
