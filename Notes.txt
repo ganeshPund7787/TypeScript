@@ -8,3 +8,6 @@
 
 5) if your variable type is any that is not good practice
 
+6) we never set set (setter) type in ts 
+
+7) access modifire => public & private
