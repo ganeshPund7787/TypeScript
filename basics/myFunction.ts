@@ -48,7 +48,7 @@ function consoleError(errMsg: string): void {
   return; // we can add only return
 }
 
-// we can't add return anymore : never
+// we can't add return anymore using : never
 function handleError(errMsg: string): never {
   throw new Error(errMsg);
 }

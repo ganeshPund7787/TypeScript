@@ -8,6 +8,8 @@ class User {
   }
 }
 
+// getter & setter in ts
+
 class User2 {
   protected _courseCount = 1;
   readonly city: string = "shevgaon";

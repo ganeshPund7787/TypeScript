@@ -25,3 +25,15 @@ interface bottle {
 }
 
 // identityFour<bottle>();
+
+function getSearchProducts<T>(product: T[]): T {
+  // do some databse operation
+  const myIdx = 3;
+  return product[myIdx];
+}
+
+const getMoreSearchProducts = <T,>(product: T[]): T => {
+  // do some databse operation
+  const myIdx = 3;
+  return product[myIdx];
+};
