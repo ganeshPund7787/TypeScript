@@ -43,4 +43,7 @@ let seatAllotment: "asile" | "middle" | "window";
 seatAllotment = "asile";
 // seatAllotment = "end"
 
+//if you want to declare constant value
+const pi: 3.14 = 3.14;
+
 export {};
