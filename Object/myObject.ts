@@ -80,4 +80,10 @@ const newCard: cardDetails = {
   cardDate: "dfds",
   cvv: 3456,
 };
+
+const newCards: cardDetails = {
+  cardnumber: "123",
+  cardDate: "dfds",
+  cvv: 3456,
+};
 export {};
